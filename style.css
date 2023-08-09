@@ -1,0 +1,277 @@
+/* start */
+.container{
+   
+}
+.whole-background{
+    background-color: rgba(255, 251, 240, 1);
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+nav div img{
+    width: 290px;
+}
+div a{
+    text-decoration: none;
+    color: rgba(60, 60, 60, 1);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.space-1{
+    margin-left: 100px;
+}
+.space{
+    margin-right: 80px;
+}
+.space a{
+    margin-right: 40px;
+}
+.background{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.div-1{
+    margin-left: 100px;
+}
+.div-2{
+    margin-left: 50px;
+}
+.fill{
+    color: rgba(250, 190, 76, 1);
+   font-family: 'Bebas Neue', sans-serif;
+   font-size: 80px; 
+}
+.fill-2{
+    color:rgba(54, 57, 88, 1) ;
+    font-family: 'Bebas Neue', sans-serif; 
+    font-size: 80px
+   ;
+}
+.font{
+   font-family: 'Roboto', sans-serif;
+ 
+}
+.button{
+    border: 1px solid white ;
+    border-radius: 10px;
+    background-color:rgba(164, 188, 70, 1) ;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.button img{
+    width: 24px;
+}
+.space-2{
+    padding-left: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+/* main start */
+.container-1{
+    margin-left: 100px;
+    margin-right: 100px;
+  
+}
+.grid-plates{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap: 30px;
+ 
+   
+  
+}
+.family{
+    font-family: 'Bebas Neue', sans-serif;
+    color:rgba(54, 57, 88, 1) ;
+    font-size: 48px;
+    margin-top: 50px;
+}
+.family-1{
+    font-family: 'Bebas Neue', sans-serif;
+    color:rgba(54, 57, 88, 1) ;
+    font-size: 48px;
+    margin-top: 60px;
+}
+
+.whole-div{
+    border: 1px solid white;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    width: 370px;
+    height: 580px;
+}
+.card{
+    padding: 20px;
+   
+}
+.card-image{
+    background-color: rgba(241, 241, 241, 1);
+    border: 1px solid rgba(241, 241, 241, 1) ;
+     border-radius: 20px;
+     padding: 20px;
+}
+.card-image img{
+   margin-left: 30px;
+   margin-right: 40px;
+}
+.font-3{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(54, 57, 88, 1) ;
+}
+.flexible{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.size{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(250, 190, 76, 1);
+    font-size: 36px;
+}
+.card-image img{
+    width: 243px;
+}
+.full-div{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 180px;
+    
+}
+.divs-father{
+   margin-left: 100px;
+}
+.last-div{
+    display: flex;
+   
+    align-items: center;
+    border: 1px solid white;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.icon{
+    margin-left: 30px;
+  
+}
+.icon img{
+width: 79px;
+}
+.images img{
+    width: 599px;
+    margin-left: 100px;
+}
+.font-4{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(54, 57, 88, 1) ;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+.font-5{
+    
+        font-family: 'Roboto', sans-serif;
+        margin-left: 30px;
+        padding-right: 50px;
+        
+}
+@media only  screen and (max-width:680px) {
+    /* nav start */
+.space-1{
+    margin-left: 50px;
+}
+.space{
+    display: none;
+}
+
+    /* nav end */
+    .container{
+        width: 100%;
+        
+    }
+    .background{
+        display: flex;
+        flex-direction:  column;
+        
+        width: 100%;
+        
+    }
+    .div-1{
+        margin-left: 0px;
+    }
+   
+
+  
+    .fill{
+        font-size: 60px;
+        
+
+    }
+    .fill-2{
+        font-size: 60px;
+      
+    }
+
+     .div-2 img{
+      width: 100%;
+      
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    .div-2{
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .font{
+        font-size: 16px;
+       
+    }
+    /* next section  */
+    .container-1{
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+
+    .grid-plates{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+grid-row-gap: 30px ;
+    }
+    .whole-div{
+       
+    }
+    /* last section  */
+    .full-div{
+        display: flex;
+        flex-direction:  column-reverse;
+    }
+    
+    .images img{
+        width: 100%;
+        margin-left: 0px;
+       
+    }
+    
+    .divs-father{
+        margin-left: 0px;
+        margin-top: 40px;
+       
+    }
+    .last-div{
+        width: 100%;
+    }
+   
+    }
+    
